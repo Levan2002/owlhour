@@ -1,0 +1,17 @@
+:root{--bg:#080c1f;--bg2:#172048;--ink:#e8eeff;--soft:#a3afd2;--aurora:#5cf2b0;--teal:#3cc8e8;--violet:#9b7bff;--card:rgba(20,27,58,.85);--stroke:#2a3566}
+*{box-sizing:border-box}html{background:var(--bg)}
+body{margin:0;font:17px/1.6 ui-rounded,"SF Pro Rounded",-apple-system,system-ui,sans-serif;color:var(--ink);background:linear-gradient(180deg,var(--bg),var(--bg2) 60%,var(--bg)) fixed;min-height:100vh}
+a{color:var(--aurora)}
+.sky{position:relative;overflow:hidden;padding:56px 0 40px;background:radial-gradient(ellipse 80% 50% at 30% 0%,rgba(92,242,176,.22),transparent 70%),radial-gradient(ellipse 60% 40% at 80% 10%,rgba(155,123,255,.20),transparent 70%)}
+.wrap{max-width:760px;margin:0 auto;padding:0 20px}
+.head{display:flex;gap:18px;align-items:center}
+.head img{width:84px;height:84px;border-radius:20px;box-shadow:0 0 40px rgba(92,242,176,.35)}
+h1{font-size:44px;line-height:1.1;margin:0;font-weight:800;letter-spacing:-.5px}
+h2{font-size:22px;margin:36px 0 8px;color:var(--ink)}
+.eyebrow{font-size:13px;font-weight:800;letter-spacing:2px;text-transform:uppercase;color:var(--aurora)}
+.lead{font-size:20px;color:var(--soft);margin:18px 0 0}
+.card{background:var(--card);border:1px solid var(--stroke);border-radius:22px;padding:18px 22px;margin:16px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px;margin-top:22px}
+.grid .card{margin:0}.grid b{display:block;color:var(--aurora);margin-bottom:4px}
+p,li{color:#cdd6f2}
+footer{max-width:760px;margin:60px auto 30px;padding:0 20px;color:var(--soft);font-size:14px}
