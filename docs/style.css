@@ -15,3 +15,32 @@ h2{font-size:22px;margin:36px 0 8px;color:var(--ink)}
 .grid .card{margin:0}.grid b{display:block;color:var(--aurora);margin-bottom:4px}
 p,li{color:#cdd6f2}
 footer{max-width:760px;margin:60px auto 30px;padding:0 20px;color:var(--soft);font-size:14px}
+
+/* ---- Guides ---- */
+.g-top{padding:22px 0}
+.g-home{text-decoration:none;color:inherit}
+.g-top .head img{width:56px;height:56px;border-radius:14px}
+.g-brand{font-size:28px;font-weight:800;line-height:1.1;color:var(--ink)}
+.g-main{padding-top:18px}
+.g-crumbs{font-size:14px;color:var(--soft);margin:6px 0 18px}
+.g-crumbs a{color:var(--soft)}
+.g-article h1{font-size:clamp(30px,6vw,40px);margin:0 0 14px}
+.g-article h2{font-size:22px;margin:34px 0 8px}
+.g-article h3{font-size:18px;margin:22px 0 6px}
+.g-article ul,.g-article ol{padding-left:1.3em}
+.g-article li{margin-bottom:.5em}
+.g-intro{font-size:19px;color:var(--soft)}
+.g-cta{margin:20px 0 8px}
+.g-btn{display:inline-block;padding:12px 22px;border-radius:999px;background:var(--aurora);color:#04101c;font-weight:800;text-decoration:none}
+.g-btn:hover{filter:brightness(1.08)}
+.g-steps{padding-left:1.4em}
+.g-end{margin:36px 0 0;padding:6px 22px 8px;background:var(--card);border:1px solid var(--stroke);border-radius:22px}
+.g-end h2{margin-top:16px}
+.g-related{list-style:none;padding:0!important}
+.g-related li{padding:10px 0;border-bottom:1px solid var(--stroke)}
+.g-list{list-style:none;padding:0!important;margin:28px 0 0}
+.g-list li{background:var(--card);border:1px solid var(--stroke);border-radius:22px;padding:6px 22px 4px;margin:0 0 14px}
+.g-list h2{font-size:20px;margin:14px 0 4px}
+.g-list h2 a{text-decoration:none}
+.g-back{margin-top:28px;font-size:15px;color:var(--soft)}
+@media (max-width:480px){.g-btn{display:block;text-align:center}}
